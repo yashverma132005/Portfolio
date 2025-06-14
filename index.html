@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="sidebar">
+        <i onclick="hideSidebar()" class="fa-solid fa-times"></i>
+        <a id="About" href="#about">About Me</a>
+        <a id="Projects" href="#projects">Projects</a>
+        <a id="Services" href="#services">Services</a>
+        <a id="con" href="#contact">Contact Me</a>
+    </div>
+
+    <div class="home-screen">
+        
+        <div class="nav-srch">
+            <div class="nav-logo">
+                <img src="Portfolio-logo2.png" alt="logo">
+            </div>
+            <div class="hamburger">
+                <i onclick="showSidebar()" class="fa-solid fa-bars" style="color: #ba68c8;"></i>
+            </div>
+            <div class="nav-links">
+                <a id="Home" class="HiddenOnMobo" href="">Home</a>
+                <a id="About" class="HiddenOnMobo" href="#about">About Me</a>
+                <a id="Projects" class="HiddenOnMobo" href="#projects">Projects</a>
+                <a id="Services" class="HiddenOnMobo" href="#services">Services</a>
+                <a id="con" class="HiddenOnMobo" href="#contact">Contact Me</a>
+            </div>
+        </div>
+        <section class="first">
+            <div class="f1">
+                <h1>Hi,</h1>
+                <h1>I'm <span class="name">Yash Verma</span></h1>
+                <h4>A Front End Web Developer</h4><br>
+                <a href="#contact">
+                    <button class="contactMe">Contact Me</button>
+                </a>                
+            </div>
+            <div class="p1">
+                <img class="HiddenOnMobo" src="DEV2.png" alt="Product" height="560px">
+            </div>
+        </section>
+    </div>
+
+    <section id="about">
+        <div class="container123">
+            <div class="about-content"> 
+                <div class="about-img">
+                    <img class="AboutMe-Pic" src="Its_Me.png" alt="Yash Verma">
+                </div>
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>I'm Yash Verma, a dedicated front-end web developer with a passion for creating visually appealing and user-friendly 
+                        websites. I specialize in HTML, CSS, JavaScript, and more. My focus is on delivering high-quality work that blends 
+                        creativity and technical expertise to exceed client expectations. Let's connect and bring your web projects to life!</p>
+    
+                    <div class="tabs"> 
+                        <h5 class="tab-links active">My Skills</h5>
+                    </div>
+    
+                    <div class="tab-contents"> 
+                        <h5>HTML</h5> <h5>CSS</h5> <h5>JavaScript</h5>
+                        <h5>SQL</h5> <h5>C/C++</h5> <h5>Python</h5> <h5>Java</h5><h5>React</h5><h5>Tailwind.css</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <div id="projects">
+            <div class="pro_container">
+                <h1 class="project-heading">Projects</h1>
+                <div class="project1">
+                    <a href="https://petcarehub.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <div class="projectimg">
+                        <img src="PetCareHub_ss1.png" alt="PetCareHub" class="web-img">
+                    </div>
+                    <div class="projectcont">
+                        <a href="https://petcarehub.netlify.app/">PetCareHub.com </a><h5>HTML | CSS | JavaScript</h5>
+                        <p>A dog breed guide platform that stands out by offering personalized pet care plan tailored to factors like a dog’s age, breed, weight, allergies and activity level.
+                            The platform also empowers owners to provide the best care for their pets while fostering connections within the dog-loving community.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+                <div class="project1">
+                    <a href="https://github.com/yashverma132005/Weather-app-React" target="_blank" rel="noopener noreferrer">
+                    <div class="projectimg">
+                        <img src="Screenshot 2025-06-14 205054.png" alt="WeatherApp" class="web-img">
+                    </div>
+                    <div class="projectcont">
+                        <a href="https://github.com/yashverma132005/Weather-app-React">Weather App </a><h5>React.js</h5>
+                        <p>A minimalist weather app built with React, featuring location search, real-time conditions (e.g., 'Mist'), and an hourly forecast. The UI includes dynamic weather icons and a user-friendly layout. Designed for quick weather checks with a responsive interface.
+                        </p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+  
+    </div>
+    <div id="services">
+        <div class="container-s">
+            <h1>Services</h1>
+            <div class="services-list">
+                <div class="ser-1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Web Development</h2>
+                    <p>I create visually appealing websites that look great on any device using HTML, CSS, JavaScript, React.js and Tailwind.csa and make navigating a breeze.</p>
+                    <a href= "#">learn more</a>
+                </div>
+
+                <div class="ser-2">
+                    <i class="fa-solid fa-pen"></i>
+                    <h2>Frontend Designing</h2>
+                    <p>Can fully design a front end of the website using Figma and other tools</p>
+                    <a href= "#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+          <div class="upp-c">
+            <h1>Contact Me</h1>
+          </div>
+      
+          <form id="contact-form" class="form">
+            <div class="sect1">
+              <input class="input" name="First Name" placeholder="First Name" type="text" required>
+              <input class="input" name="Last Name" placeholder="Last Name" type="text" required>
+            </div>
+            <div class="sect2">
+              <input class="input" name="Your Email" placeholder="Your Email" type="email" required>
+              <input class="input" name="Your Contact No." placeholder="Your Contact No." type="tel" required>
+            </div>
+            <textarea name="Your Message" rows="6" placeholder="Write Your Message..." required></textarea>
+            <div class="my-info">
+                <div class="my-phone">
+                    <i class="fa-solid fa-phone" style="color: #ba68c8;"></i>
+
+                    <p style="color: #ffffff;">
+                        +91 9958655743
+                    </p>
+                </div>
+                <div class="my-mail">
+                    <i class="fa-solid fa-envelope" style="color: #ba68c8;"></i>
+
+                     <p style="color: #ffffff;">
+                        yash13verma2005@gmail.com
+                    </p>
+                </div>
+               
+            </div>
+            <div class="login-with">
+              <div class="button-log">
+                <a href="https://www.instagram.com/_yashverma13/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+              </div>
+              <div class="button-log">
+                <a href="https://www.linkedin.com/in/yash-verma-b392b0284/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+              </div>
+              <div class="button-log">
+                <a href="https://github.com/yashverma132005" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+              </div>
+            </div>
+      
+            <button type="submit" class="button-confirm">Submit →</button>
+            <p id="statusMessage" style="margin-top: 10px;"></p>
+          </form>
+        </div>
+      </div>
+      
+    <script src="index.js"></script>
+</body>
+</html>
